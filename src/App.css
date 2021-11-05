@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+.TB{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.NavBar{
+    background-color: rgba(0, 122, 47, 0.808);
+}
+.NavBar .ul{
+    display: flex;
+}
+.NavBar .ul .li{
+    list-style: none;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 5px 15px;
+}
+.NavBar .ul .li:hover{
+    background-color: white;
+    color: rgba(0, 122, 47, 0.808);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    .TB i{
+        display: none;
+    }
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .TopBar .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .Social{
+        justify-content: center;
+    }
+    .NavBar .ul{
+        flex-direction: column;
+    }
+    .non{
+        display: none;
+    }
+    .TB{
+        box-shadow: 5px 5px 5px seagreen;
+    }
+    
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
