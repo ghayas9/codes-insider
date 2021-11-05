@@ -27,6 +27,9 @@ function App(){
         </div>
         </div>
         <NavBar show={Nav}/>
+        <div className="container">
+            <h1>Main</h1>
+        </div>
         </>
     );
 }
