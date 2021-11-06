@@ -1,17 +1,17 @@
-.post .d{
-    background-color: rgba(0, 100, 0, 0.589);
-    color: white;
-}
+
 .post img{
     display: block;
 }
 .main .post:nth-child(even){
     display: flex;
     flex-direction: row-reverse;
+    
 }
 .main .post:nth-child(even) .d{
     color: black;
-    background-color: white;
+}
+.main .post:nth-child(odd) .d{
+    background-image: linear-gradient(to right,darkgreen,rgb(120, 236, 159));
 }
 
 .post{
