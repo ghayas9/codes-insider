@@ -1,0 +1,28 @@
+.post .d{
+    background-color: rgba(0, 100, 0, 0.589);
+    color: white;
+}
+.post img{
+    display: block;
+}
+.main .post:nth-child(even){
+    display: flex;
+    flex-direction: row-reverse;
+}
+.main .post:nth-child(even) .d{
+    color: black;
+    background-color: white;
+}
+
+.post{
+    display: flex;
+    margin-top: 8px;
+    box-shadow: 3px 3px 3px rgba(235, 247, 235, 0.911);
+}
+.post .about-post *{
+    padding-right: 4px;
+}
+
+.post .post-detail{
+    margin-top: 10px;
+}
