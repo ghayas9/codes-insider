@@ -6,7 +6,7 @@
 }
 
 .NavBar{
-    background-color: rgba(0, 122, 47, 0.808);
+    background-image: linear-gradient(to right,darkgreen,rgb(120, 236, 159));
 }
 .NavBar .ul{
     display: flex;
@@ -20,7 +20,7 @@
 }
 .NavBar .ul .li:hover{
     background-color: white;
-    color: rgba(0, 122, 47, 0.808);
+    color: darkgreen;
 }
 
 @media only screen and (min-width: 768px) {
