@@ -27,6 +27,38 @@ function SideBar(){
                 <i class="far fa-paper-plane col-2"></i>
                 </div>
             </div>
+            <div className="popular-post">
+                <h4 className='h'>POPULAR POSTS</h4>
+                <div className="pp">
+                <div className="p">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, aut.
+                </div>
+                <div className="p">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, aut.
+                </div>
+                <div className="p">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, aut.
+                </div>
+                <div className="p">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, aut.
+                </div>
+                <div className="p">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, aut.
+                </div>
+                <div className="p">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, aut.
+                </div>
+                <div className="p">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, aut.
+                </div>
+                <div className="p">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, aut.
+                </div>
+                <div className="p">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, aut.
+                </div>
+                </div>
+            </div>
         </div>
     )
 }export default SideBar;
