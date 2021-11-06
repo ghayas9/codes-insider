@@ -12,6 +12,7 @@
 }
 .main .post:nth-child(odd) .d{
     background-image: linear-gradient(to right,darkgreen,rgb(120, 236, 159));
+    color: white;
 }
 
 .post{

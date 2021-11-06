@@ -1,7 +1,7 @@
 import './SideBar.css';
 function SideBar(){
     return(
-        <div className="container-fluid side">
+        <div className="side">
             <div className="search">
                 <h4 className='h'>SEARCH</h4>
                 <div className="sr">

@@ -1,6 +1,10 @@
 .search,.newsletter,.Categories{
     justify-content: center;
     text-align: center;
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+    background-image: linear-gradient(to right,darkgreen,rgb(120, 236, 159));
 }
 .side .h{
     text-align: center;
@@ -38,17 +42,13 @@ background-color: black;
     text-align: center;
 }
 /* CATEGORIES */
-.Categories{
-    margin-top: 50px;
-}
 .Categories .li{
     display: flex;
     justify-content: space-between;
     font-size: 20px;
 }
 /* NEWSLETTER */
-.newsletter{
-    padding: 20px;
-    margin-top: 50px;
-    background-image: linear-gradient(to right,darkgreen,rgb(120, 236, 159));
+
+.search{
+    margin-top: 8px;
 }
