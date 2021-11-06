@@ -35,7 +35,7 @@
         display: flex;
         flex-direction: column-reverse;
     }
-    .Social{
+    .TopBar .Social{
         justify-content: center;
     }
     .NavBar .ul{
