@@ -7,12 +7,8 @@ function  Home(){
         <div className="container">
             <div className="row">
                 <div className="col-md-8 main">
-                   <Post/>
-                   <Post/>
-                   <Post/>
-                   <Post/>
-                   <Post/>
-                   <Post/>
+                    <h1>HOME</h1>
+                   
                 </div>
                 <div className="col-md-4">
                     <SideBar/>

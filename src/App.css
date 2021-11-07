@@ -13,12 +13,20 @@
 }
 .NavBar .ul .li{
     list-style: none;
-    color: white;
+    
     font-size: 30px;
     font-weight: 500;
     padding: 5px 15px;
 }
+.NavBar .ul .li a{
+    text-decoration: none;
+    color: white;
+}
+
 .NavBar .ul .li:hover{
+    background-color: white;
+}
+.NavBar .ul .li:hover a{
     background-color: white;
     color: darkgreen;
 }
