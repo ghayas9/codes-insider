@@ -18,6 +18,7 @@ function NavBar(p){
                                )
                            })
                        }
+
                    </div>
                 </div>
             </div>

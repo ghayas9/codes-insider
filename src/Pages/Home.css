@@ -8,6 +8,7 @@
     
 }
 .main .post:nth-child(even) .d{
+    background-image: linear-gradient(to right,rgb(226, 255, 226),rgb(112, 119, 114));
     color: black;
 }
 .main .post:nth-child(odd) .d{
@@ -18,7 +19,9 @@
 .post{
     display: flex;
     margin-top: 8px;
-    box-shadow: 3px 3px 3px rgba(235, 247, 235, 0.911);
+    box-shadow: 5px 1px 28px 8px rgba(72,202,167,0.39);
+-webkit-box-shadow: 5px 1px 28px 8px rgba(72,202,167,0.39);
+-moz-box-shadow: 5px 1px 28px 8px rgba(72,202,167,0.39);
 }
 .post .about-post *{
     padding-right: 4px;
@@ -26,4 +29,8 @@
 
 .post .post-detail{
     margin-top: 10px;
+}
+.pah{
+    padding: 30px;
+    background-color: gray;
 }

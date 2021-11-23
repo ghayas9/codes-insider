@@ -6,34 +6,24 @@ import FootBar from './Pages/components/FootBar';
 import './Pages/Home.css';
 import React from "react";
 import Android from './Pages/Android';
-import './App.css';
-import { BrowserRouter as Router,Switch , Route } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom';
+import Flutter from './Pages/Flutter';
 
 
 function App(){
+
     return(
         <>
         <TopBar/>
-        <Router>
-            <Switch>
-                    <Route path='/' component={Home} exact />
-                    <Route path='/android' component={Android} exact/>
-            </Switch>
-        </Router>
+
+        <Routes>
+            <Route path='/' element={<Home/>}></Route>
+            <Route path='/android' element={<Android/>}></Route>
+            <Route path='/flutter' element={<Flutter/>}></Route>
+        </Routes>
            
         <FootBar/>
         </>
     )
 }
 export default App;
-
-function abc(){
-    return (
-        <div>GHAYAS</div>
-    )
-}
-function abc1(){
-    return (
-        <div>GHAYAS1</div>
-    )
-}
