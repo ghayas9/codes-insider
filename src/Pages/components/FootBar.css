@@ -8,6 +8,7 @@
     padding: 20px;
     color: white;
 }
+
 .footbar .Social,.footbar .pages,.footbar .copy-right{
     display: flex;
     justify-content: center;
@@ -18,4 +19,8 @@
     list-style: none;
     padding: 10px;
     font-size: 20px;
+}
+
+.footbar .Social i:hover,.footbar .pages li:hover{
+    color: rgb(37, 241, 99);
 }

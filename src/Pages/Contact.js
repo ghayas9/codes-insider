@@ -6,7 +6,7 @@ const Contact = () => {
         <div className="container">
             <div className="row">
                 <div className="col-md-8">
-                <h1>Contact US</h1>
+                <h1 style={{marginTop:'20px'}}>Contact US</h1>
                 <div className="col-12">
                     {Nameofinput('Name')}
                     <input type="text"  className='col-12'/>
