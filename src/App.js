@@ -8,6 +8,7 @@ import React from "react";
 import Android from './Pages/Android';
 import { Routes, Route } from 'react-router-dom';
 import Flutter from './Pages/Flutter';
+import Contact from './Pages/Contact';
 
 
 function App(){
@@ -20,6 +21,7 @@ function App(){
             <Route path='/' element={<Home/>}></Route>
             <Route path='/android' element={<Android/>}></Route>
             <Route path='/flutter' element={<Flutter/>}></Route>
+            <Route path='/contact' element={<Contact/>}></Route>
         </Routes>
            
         <FootBar/>
